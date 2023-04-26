@@ -28,7 +28,10 @@
  ## data type inside the list does not matter in terraform
 
  variable "sample_dict" {
-   number = 100,
-   string = hello
-
+   default = {
+     number1 = 100,
+     string1 = "hello"
+     number2 = 123
+     boolean = true
+   }
  }
