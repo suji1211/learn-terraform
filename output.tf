@@ -11,6 +11,14 @@ output "sample_string1" {
 
 ## values from list
 # second value from list
-output "sample_list" {
+output "sample_list_2" {
   value = var.sample_list[1]
+}
+
+output "sample_dict_num1" {
+  value = var.sample_dict["number1"]
+}
+
+output "sample_dict_bool" {
+  value = var.sample_dict["boolean"]
 }
