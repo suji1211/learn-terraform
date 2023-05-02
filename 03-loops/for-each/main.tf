@@ -1,4 +1,4 @@
-resource "null_resourse" "fruits" {
+resource "null_resource" "fruits" {
 
   for_each = var.fruits
 
@@ -7,7 +7,7 @@ resource "null_resourse" "fruits" {
   }
 }
 
-resource "null_resourse" "fruits1" {
+resource "null_resource" "fruits1" {
   for_each = var.fruits1
 
   provisioner "local-exec" {
