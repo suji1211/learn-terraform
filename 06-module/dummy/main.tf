@@ -1,3 +1,3 @@
 output "dummy_output" {
-  value = "xyz"
+  value = "abc"
 }
