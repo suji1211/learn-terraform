@@ -13,10 +13,10 @@
  ## Booleans are true or false
  # Boooleans and numbers does not need to be quoted. Only strings need to be quoted that to be with double quotes.terraform does not support for single quotes
 
- ## variable types
- #so far we have seen is default variable type
+ ## 03-vars.yml types
+ #so far we have seen is default 03-vars.yml type
 
- #we have list variable type
+ #we have list 03-vars.yml type
  variable "sample_list" {
    default = [
    100,
